@@ -16,7 +16,7 @@ spec:
         node-type: webserver
       containers:
       - name: wargame-web
-        image: 10.244.3.2:5000/wargame-web:latest
+        image: 10.244.2.2:5000/wargame-web:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
